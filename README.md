@@ -24,4 +24,4 @@ What could it look like?
 
 A first test run with the smaller model, the copy GPT-Neo, reveals the weaknesses of the “imagination” of the AI: Even small changes such as punctuation marks or additional spaces generate images of the future that have little to do with human futures and at the same time make the results opaque and difficult to reconstruct. 
 
-I hope this project will show something slightly more authentic – for updates, see the diary.txt
+I hope this project will show something slightly more authentic – I will post updates on the project here.
