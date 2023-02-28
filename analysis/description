@@ -1,0 +1,6 @@
+this folder contains the results from the sentiment analysis with DistilBERT uncased emotion: https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion
+as well as the results from the topic modelling on all three datasets: human_scenarios.xlxs, synthetic_scenarios.csv, finetuned_scenarios.csv.
+
+after t-testing the results of the sentiment analysis, the scenario tonality showed significant differences between the emotions anger, sadness and joy, 
+when comparing machine-made scenarios (not fine-tuned) and human-made scenarios. The code for this data analysis can be found in the folder "code"
+-> TopicSentimenModelingScenarios.ipynb
