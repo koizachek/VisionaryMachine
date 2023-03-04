@@ -16,7 +16,11 @@ The scenarios were analyzed with DistilBERT-uncased-emotions before they become 
 
 Why?
 
-From the scenarios generated, I expect to gain insights into the images of the future that human experts have created, because the abstraction by an algorithm shows patterns and quantifies previously uncounted things, as I work with a low temperature (making the model more deterministic). This brings content motifs to the surface, connections and clusters are shown. The parameters with which algorithmic models operate are also an important basis for the traceability of the AI. If an algorithm can create images of the future, what would it “imagine”? And is it able to generate other content than the scenarios that the person has developed? Publicly accessible language models refer to various training data from the Internet. The GPT-3 model, which has been accessible since April 2020, has +175 billion parameters and it's training data goes as far as early 2021. With the synthetic dataset on the other hand, I aim to build the foundation of a comparison between the performance measures. 
+From the scenarios generated, I expect to gain insights into the language we use, when foresight experts talk about the future. Using Methods like Sentiment Analysis and Topic Distribution reveals patterns and quantifies previously uncounted things. 
+
+The Fine-Tuning on the other hand should, as I work with a high model temperature (making the model less deterministic), reveal machine-made futures that are analyzed with the same means. This brings content motifs to the surface, connections and clusters are shown. The parameters with which algorithmic models operate are also an important basis for the traceability of the AI. If an algorithm can create images of the future, what would it “imagine”? And is it able to generate other content than the scenarios that the person has developed? Publicly accessible language models refer to various training data from the Internet. 
+
+With these two synthetic datasets on scenarios, I aim to build the foundation of a comparison between human and machine-futures. 
 
 What could it look like?
 
