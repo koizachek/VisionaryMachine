@@ -1,10 +1,8 @@
-# VisionaryMachine
-A Future Scenario Generator, based on a finetuned GPT-3.5, Davinci-003
+# VisionaryMachine: Can GPT generate plausible future scenarios?
 
+In this thsis, I tested and analyzed three future scenario generation methods, based on a finetuned davinci, prompt-tuned text-davinci-003 and GPT-4 via ChatGPT Plus.
 
-Hello, there!
-
-Welcome to this project: Originally dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce authentic future scenarios, based on a synthetic dataset created with vanilla GPT-3 and an equal-in-size human-made scenario dataset concerning the years 2030, 2040 and 2050. Both datasets consist of 1056 scenarios. 
+Originally dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce authentic future scenarios, based on a synthetic dataset created with vanilla GPT-3 and an equal-in-size human-made scenario dataset concerning the years 2030, 2040 and 2050. Both datasets consist of 1056 scenarios. 
 
 What are Scenarios?
 
