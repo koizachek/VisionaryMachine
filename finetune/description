@@ -1,5 +1,5 @@
 -> step-by-step guide how to fine-tune: finetune.txt
 -> Data Input: finetuningdata.xlsx
 -> Data Output (JSON): finetuningdata_prepared.jsonl
--> finetune process: 
--> Use the GPT-3 scenario model: ScenarioGenerator.ipynb
+-> finetune process: https://platform.openai.com/docs/guides/fine-tuning
+-> Use the GPT-3 scenario model: ScenarioGenerate.ipynb
