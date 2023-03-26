@@ -13,3 +13,32 @@ openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>
 
 #use model
 openai api completions.create -m <FINE_TUNED_MODEL> -p <YOUR_PROMPT>
+
+#promt tune model
+openai api completions.create -h
+
+Will display:
+
+usage: openai api completions.create [-h] [-e ENGINE] [-m MODEL] [--stream] [-p PROMPT] [-M MAX_TOKENS] [-t TEMPERATURE] [-P TOP_P] [-n N] [--logprobs LOGPROBS] [--stop STOP]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -e ENGINE, --engine ENGINE
+                        The engine to use. See https://beta.openai.com/docs/engines for more about what engines are available.
+  -m MODEL, --model MODEL
+                        The model to use. At most one of `engine` or `model` should be specified.
+  --stream              Stream tokens as they're ready.
+  -p PROMPT, --prompt PROMPT
+                        An optional prompt to complete from
+  -M MAX_TOKENS, --max-tokens MAX_TOKENS
+                        The maximum number of tokens to generate
+  -t TEMPERATURE, --temperature TEMPERATURE
+                        What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for
+                        ones with a well-defined answer. Mutually exclusive with `top_p`.
+  -P TOP_P, --top_p TOP_P
+                        An alternative to sampling with temperature, called nucleus sampling, where the considers the results of the tokens with top_p probability mass. So 0.1
+                        means only the tokens comprising the top 10% probability mass are considered. Mutually exclusive with `temperature`.
+  -n N, --n N           How many sub-completions to generate for each prompt.
+  --logprobs LOGPROBS   Include the log probabilites on the `logprobs` most likely tokens, as well the chosen tokens. So for example, if `logprobs` is 10, the API will return a
+                        list of the 10 most likely tokens. If `logprobs` is 0, only the chosen tokens will have logprobs returned.
+  --stop STOP           A stop sequence at which to stop generating tokens.
