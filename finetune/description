@@ -1,2 +1,5 @@
--> finetuned model:
--> scenario generation script: ScenarioGenerator.ipynb
+-> step-by-step guide how to fine-tune: finetune.txt
+-> Data Input: finetuningdata.xlsx
+-> Data Output (JSON): finetuningdata_prepared.jsonl
+-> finetune process: 
+-> Use the GPT-3 scenario model: ScenarioGenerator.ipynb
