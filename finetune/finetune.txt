@@ -1,23 +1,24 @@
-#open shell
+$ open and run those commands in shell:
+
 pip install --upgrade openai
 
-#get key from your openai account
+$ get key from your openai account
 export OPENAI_API_KEY="<OPENAI_API_KEY>"
 
-#data needs to be in this JSON format {"prompt": "<prompt text>", "completion": "<ideal generated text>"}
-#prepare csv, osv xlsx, json, jsonl
+$ data needs to be in this JSON format {"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+$ prepare csv, osv xlsx, json, jsonl
 openai tools fine_tunes.prepare_data -f <LOCAL_FILE>
 
-#use json file to run fine-tuning
+$ use json file to run fine-tuning
 openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>
 
-#use model
+$ use model
 openai api completions.create -m <FINE_TUNED_MODEL> -p <YOUR_PROMPT>
 
-#promt tune model
+$ promt tune model
 openai api completions.create -h
 
-Will display:
+$ Will display:
 
 usage: openai api completions.create [-h] [-e ENGINE] [-m MODEL] [--stream] [-p PROMPT] [-M MAX_TOKENS] [-t TEMPERATURE] [-P TOP_P] [-n N] [--logprobs LOGPROBS] [--stop STOP]
 
