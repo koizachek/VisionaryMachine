@@ -1,9 +1,20 @@
-Search: 
-Download:
-Parsing: 
-Clustering: 
-Summarize: 
-Cleaning: 
-Translation: 
-Topic Distribution:
-Keyword Extraction:
+1. Search and Filter
+
+Search and Initial Download: ScenarioSearch_Download_WriteFile.ipynb
+Download and Filter without Duplicates: DownloadFilteredScenarios.ipynb
+Cleanup the Sources: CleanupSources.ipynb
+
+2. Create a Dataset and Clean
+
+Parsing the PDFS into CSV: PDFtoCSV.ipynb
+Translate and Summarize: TranslateAndSummarize.ipynb
+Cleaning: CleanGPT3_Scenarios.ipynb
+
+3. Reduce and Analyze the Dataset
+
+Data set reduction based on Topic Distribution: Dataset_Reduction.ipynb 
+Keyword Extraction: KeywordExtraction.ipynb
+
+4. Get the Scenarios to test them in a qualitative Surves (for quantitative analyis check 'analyse' folder)
+
+Get Randomized Scenarios for Survey: GetSurveyScenarios.ipynb
