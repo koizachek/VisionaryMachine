@@ -1,3 +1,6 @@
+Sentiment Analysis, LDA Analysis, Term Analysis, Keyword Extraction, T-Tests
+
+
 this folder contains the results from the sentiment analysis with DistilBERT uncased emotion: https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion
 as well as the results from the topic modelling on all three datasets: human_scenarios.xlxs, synthetic_scenarios.csv, finetuned_scenarios.csv.
 you can find the top 150 words of each dataset in a respective csv file, as well as a visualization.
