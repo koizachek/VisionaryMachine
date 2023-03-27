@@ -4,14 +4,14 @@
 
 Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce authentic future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2040 and 2050. The repository makes most sense in this order:
 
-
+0) requirements.txt
 1) code: contains all steps and descriptions how to re-create the experiment
 2) data: contains the raw data and the sources
 3) analysis: contains the content analysis of the future scenarios
 4) fine-tune: contains a descritopn and json file to fine-tune your own model
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the final four data sets
-
+7) soon: data anaylsis from foresight expert survey
 
 ## What are Scenarios?
 
