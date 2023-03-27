@@ -26,4 +26,6 @@ No future research methods represent discipline as much as scenario methods. The
 
 ## My research question aims to assess the possibility of automatically generating “authentic” scenarios with the help of artificial intelligence.
 
+<a href="https://ibb.co/CmHRP2p"><img src="https://i.ibb.co/mbcfN8r/Bildschirm-foto-2023-03-27-um-19-52-29.png" alt="Bildschirm-foto-2023-03-27-um-19-52-29" border="0"></a>
+
 In case authenticity and human-likeness in terms of output is possible: What would AI “imagine”? Is it even able to generate other content than the scenarios that humans have developed prior? And if so, what is the differences between machine-imaginaries and human-made futures? Updates soon.
