@@ -1,1 +1,11 @@
+documentation of the manual prompt-tuning. the final prompt parameters were evaluated by two experts from foresight and NLP
+With an interrater reliability of 100% we went for:
 
+        prompt=prompt,
+        max_tokens=38,
+        temperature=0.9,
+        top_p=0.5,
+        frequency_penalty=1.9,
+        presence_penalty=1.9,
+
+Which has shown to generate full sentences, realistic future scenarios and a high amount of creativity in GPT 3.5 text-davinci-003.
