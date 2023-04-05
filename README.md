@@ -32,3 +32,4 @@ In case authenticity and human-likeness in terms of output is possible: What wou
 
 
 Update 28.03.2023: E-Delphi Survey started
+Update 05.04.2023: E-Delphi Survey ended
