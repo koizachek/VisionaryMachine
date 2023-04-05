@@ -29,8 +29,3 @@ No future research methods represent discipline as much as scenario methods. The
 <a href="https://ibb.co/CmHRP2p"><img src="https://i.ibb.co/mbcfN8r/Bildschirm-foto-2023-03-27-um-19-52-29.png" alt="Bildschirm-foto-2023-03-27-um-19-52-29" border="0"></a>
 
 In case authenticity and human-likeness in terms of output is possible: What would AI “imagine”? Is it even able to generate other content than the scenarios that humans have developed prior? And if so, what is the differences between machine-imaginaries and human-made futures? 
-
-
-Update 28.03.2023: E-Delphi Survey started
-
-Update 05.04.2023: E-Delphi Survey ended
