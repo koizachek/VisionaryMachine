@@ -7,7 +7,7 @@ Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary M
 0) requirements.txt
 1) code: contains all steps and descriptions how to re-create the experiment
 2) data: contains the data sources
-3) analysis: contains the content analysis of the future scenarios
+3) analysis: contains the content analysis of the scenarios/results in sentiment & topicmodeling
 4) fine-tune: contains description, the json file to fine-tune the model and a model evaluation
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the processed data sets
