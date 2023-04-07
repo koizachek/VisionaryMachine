@@ -38,4 +38,10 @@ if(typeof(LDAvis) !== "undefined"){
             })
          });
 }
-</script>
+// Set custom colors for topics
+var vis = document.getElementsByClassName("pyLDAvis-topic-circle");
+for (var i = 0; i < vis.length; i++) {
+  var circle = vis[i];
+  var fill_color = circle.style.fill;
+  if (fill_color == "rgb(255, 0, 0)") {
+    circle.style.fill = "#0045f4"; // set red
