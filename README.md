@@ -20,9 +20,9 @@ No future research methods represent discipline as much as scenario methods. The
 ## How did I work with the Scenarios? My four data sets of scenarios consist of:
 
 1) +1.300 Human-made scenarios were scraped, cleaned, summarized and analyzed to use them for the fine-tuning of GPT-3. 
-2) The fine-tuned model generated 1.040 scenarios. 
-3) Then I prompt-tuned GPT-3.5 text-davinci-003 on the same keywords and examples deriving from the human-made scenarios and tested the most suitable parameter settings with a small panel of experts, to then generate another 1.040 scenarios with the settings concluded. 
-4) Lastly, I used three-shot prompting with examples from the human-made scenarios for GPT-4 and generate a fourth dataset of 1.040 scenarios.
+2) The fine-tuned model generated 1.080 scenarios. 
+3) Then I prompt-tuned GPT-3.5 text-davinci-003 on the same keywords and examples deriving from the human-made scenarios and tested the most suitable parameter settings with a small panel of experts, to then generate another 1.080 scenarios with the settings concluded. 
+4) Lastly, I used three-shot prompting with examples from the human-made scenarios for GPT-4 and generate a fourth dataset of 1.080 scenarios.
 
 <a href="https://freeimage.host/i/HkXaIaI"><img src="https://iili.io/HkXaIaI.md.png" alt="HkXaIaI.md.png" border="0"></a>
 
