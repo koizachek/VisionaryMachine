@@ -1,0 +1,4 @@
+All Semantic Analysis performed on the data: LDA Analysis, Term Analysis, Keyword Extraction, T-Tests, Sentiment Analysis
+
+this jupyter notebook contains the path to receive the results from the sentiment analysis with DistilBERT uncased emotion: https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion
+as well as the results from the topic modeling with LDA on all four datasets: human-made scenarios, gpt-3, gpt-3.5 and gpt-4 scenarios.
