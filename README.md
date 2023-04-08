@@ -2,29 +2,29 @@
 
 ## In this research project, I tested and analyzed three future scenario generation methods, based on a GPT-3 finetuned davinci, GPT-3.5 prompt-tuned text-davinci-003 and a three-shot prompted GPT-4
 
-Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce authentic future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2040 and 2050. The repository makes most sense in this order:
+Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2035, 2040, 2045 and 2050. The repository makes most sense in this order:
 
 0) requirements.txt
 1) code: contains all steps and descriptions how to re-create the experiment
 2) data: contains the data sources
-3) analysis: contains the content analysis of the scenarios/results in sentiment & topicmodeling
+3) analysis: contains the semantic analysis of the scenarios/the results are in sentiment & topic modeling
 4) fine-tune: contains description, the json file to fine-tune the model and a model evaluation
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the processed data sets
-7) soon: data anaylsis from foresight expert survey
+7) soon: delphi data anaylsis from foresight expert survey: are the scenarios human-like?
 
 ## What are Scenarios?
 
-No future research methods represent discipline as much as scenario methods. The development of possible future worlds and the description of the way to them provide the basis for decision-making and at the same time space for speculation. The result is described in scenic texts and makes the future narrative, desirable or warns of it: the so-called scenarios. Not least because of the pandemic, possible futures have found their way into the reality of a critical mass - the population received forecasts every day, while economic, political and civil actors speculated about post-pandemic future scenarios. In the course of this, the creation and publication of future scenarios achieved a wide range: A resource of over 1060 human-written scenarios was scraped, parsed and translated into english, forming a data set to fine-tune GPT-3 on.
+No future research methods represent discipline as much as scenario methods. The development of possible future worlds and the description of the way to them provide the basis for decision-making and at the same time space for speculation. The result is described in scenic texts and makes the future narrative, desirable or warns of it: the so-called scenarios. Not least because of the pandemic, possible futures have found their way into the reality of a critical mass - receiving forecasts every day, while economic, political and civil actors speculated about post-pandemic future scenarios was the prerequisite to harvest the data, since the creation and publication of future scenarios achieved a broad range: A resource of over 1060 human-written scenarios was scraped, parsed and translated into english, forming a data set to fine-tune GPT-3 on, and to promt-tune GPT-3.5 and GPT-4 with.
 
 ## How did I work with the Scenarios? My four data sets of scenarios consist of:
 
-1) +1.000 Human-made scenarios were scraped, cleaned, summaried and analyzed to use them for the fine-tuning of GPT-3. 
-2) The fine-tuned model generated 1.000 scenarios as well, based on the keywords deriving from the human-made scenarios. 
-3) Then I prompt-tuned GPT-3.5 text-davinci-003 on the same keywords and tested the most creative parameter settings with a small panel of experts, to then generate +1000 scenarios with the global settings. 
-4) Lastly, I used five-shot prompting for GPT-4 to generate a fourth dataset of +1.000 scenarios.
+1) +1.300 Human-made scenarios were scraped, cleaned, summarized and analyzed to use them for the fine-tuning of GPT-3. 
+2) The fine-tuned model generated 1.040 scenarios. 
+3) Then I prompt-tuned GPT-3.5 text-davinci-003 on the same keywords and examples deriving from the human-made scenarios and tested the most suitable parameter settings with a small panel of experts, to then generate another 1.040 scenarios with the settings concluded. 
+4) Lastly, I used three-shot prompting with examples from the human-made scenarios for GPT-4 and generate a fourth dataset of 1.040 scenarios.
 
-## My research question aims to assess the possibility of automatically generating “authentic” scenarios with the help of artificial intelligence.
+## My research question aims to assess the possibility of automatically generating “authentic” and "human-like" scenarios with the help of Generative Pre-Trained Transformers.
 
 <a href="https://ibb.co/CmHRP2p"><img src="https://i.ibb.co/mbcfN8r/Bildschirm-foto-2023-03-27-um-19-52-29.png" alt="Bildschirm-foto-2023-03-27-um-19-52-29" border="0"></a>
 
