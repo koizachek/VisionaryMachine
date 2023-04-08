@@ -24,6 +24,8 @@ No future research methods represent discipline as much as scenario methods. The
 3) Then I prompt-tuned GPT-3.5 text-davinci-003 on the same keywords and examples deriving from the human-made scenarios and tested the most suitable parameter settings with a small panel of experts, to then generate another 1.040 scenarios with the settings concluded. 
 4) Lastly, I used three-shot prompting with examples from the human-made scenarios for GPT-4 and generate a fourth dataset of 1.040 scenarios.
 
+<a href="https://freeimage.host/i/HkXaIaI"><img src="https://iili.io/HkXaIaI.md.png" alt="HkXaIaI.md.png" border="0"></a>
+
 ## My research question aims to assess the possibility of automatically generating “authentic” and "human-like" scenarios with the help of Generative Pre-Trained Transformers.
 
 In case authenticity and human-likeness in terms of output is possible: What would AI “imagine”? Is it even able to generate other content than the scenarios that humans have developed prior? And if so, what is the differences between machine-imaginaries and human-made futures? 
