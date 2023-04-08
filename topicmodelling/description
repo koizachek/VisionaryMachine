@@ -1,1 +1,3 @@
 results from topic modelling with LDA
+-> human_scenarios contain data from topic modeling with > 1000 human-made scenarios
+-> gpt_scenarios contain data from topic modeling with > 3000 gpt-made scenarios (gpt-3, gpt-3.5 and gpt-4)
