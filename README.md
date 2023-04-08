@@ -5,9 +5,9 @@
 Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2035, 2040, 2045 and 2050. The repository makes most sense in this order:
 
 0) requirements.txt
-1) code: contains all steps and descriptions how to re-create the experiment
-2) data: contains the data sources
-3) analysis: contains the semantic analysis of the scenarios/the results are in sentiment & topic modeling
+1) code: contains all steps to gather and process the data and descriptions how to re-create the experiment
+2) data: contains the raw data sources
+3) semantic_analysis: contains the analysis of the scenarios/the respective results are in the folders sentiment & topic modeling
 4) fine-tune: contains description, the json file to fine-tune the model and a model evaluation
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the processed data sets
