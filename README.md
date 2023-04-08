@@ -11,7 +11,7 @@ Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary M
 4) fine-tune: contains description, the json file to fine-tune the model and a model evaluation
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the processed data sets
-7) soon: delphi data anaylsis from foresight expert survey: are the scenarios human-like?
+7) survey: delphi data anaylsis from foresight expert survey
 
 ## What are Scenarios?
 
