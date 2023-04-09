@@ -1,0 +1,41 @@
+{
+  "object": "fine-tune",
+  "id": "ft-",
+  "hyperparams": {
+    "n_epochs": 4,
+    "batch_size": 2,
+    "prompt_loss_weight": 0.01,
+    "learning_rate_multiplier": 0.1
+  },
+  "organization_id": "org-",
+  "model": "davinci",
+  "training_files": [
+    {
+      "object": "file",
+      "id": "file-",
+      "purpose": "fine-tune",
+      "filename": "/path",
+      "bytes": 274471,
+      "created_at": 1679831444,
+      "status": "processed",
+      "status_details": null
+    }
+  ],
+  "validation_files": [],
+  "result_files": [
+    {
+      "object": "file",
+      "id": "file-",
+      "purpose": "fine-tune-results",
+      "filename": "compiled_results.csv",
+      "bytes": 127464,
+      "created_at": 1679833863,
+      "status": "processed",
+      "status_details": null
+    }
+  ],
+  "created_at": 1679831444,
+  "updated_at": 1679833863,
+  "status": "succeeded",
+  "fine_tuned_model": "davinci:ft-personal-2023-03-26-12-31-01"
+}
