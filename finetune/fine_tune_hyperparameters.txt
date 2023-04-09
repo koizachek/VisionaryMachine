@@ -1,9 +1,41 @@
-curl -X POST https://api.openai.com/v1/models/fine-tune \\\
-  -H "Content-Type: application/json" \\\
-  -H "Authorization: Bearer YOUR_API_KEY" \\\
-  -d '\{\
-    "dataset": "your_dataset_id",\
-    "learning_rate": 2e-5,\
-    "batch_size": 64,\
-    "num_epochs": 8\
-  \}'}
+{
+  "object": "fine-tune",
+  "id": "ft-",
+  "hyperparams": {
+    "n_epochs": 8,
+    "batch_size": 4,
+    "prompt_loss_weight": 0.01,
+    "learning_rate_multiplier": 0.1
+  },
+  "organization_id": "org-",
+  "model": "davinci",
+  "training_files": [
+    {
+      "object": "file",
+      "id": "file-",
+      "purpose": "fine-tune",
+      "filename": "/path",
+      "bytes": 235741,
+      "created_at": 1679836683,
+      "status": "processed",
+      "status_details": null
+    }
+  ],
+  "validation_files": [],
+  "result_files": [
+    {
+      "object": "file",
+      "id": "file-",
+      "purpose": "fine-tune-results",
+      "filename": "compiled_results.csv",
+      "bytes": 128613,
+      "created_at": 1679839014,
+      "status": "processed",
+      "status_details": null
+    }
+  ],
+  "created_at": 1679836683,
+  "updated_at": 1679839015,
+  "status": "succeeded",
+  "fine_tuned_model": "davinci:ft-personal-2023-03-26-13-56-52"
+}
