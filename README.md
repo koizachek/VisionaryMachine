@@ -8,7 +8,7 @@ Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary M
 1) code: contains all steps to gather and process the data and descriptions how to re-create the experiment
 2) data: contains the raw data sources
 3) semantic_analysis: contains the analysis of the scenarios/the respective results are in the folders sentiment & topic modeling
-4) fine-tune: contains description, the json file to fine-tune the model and a model evaluation files - [interactive model evaluation](https://api.wandb.ai/links/kozachekdiana/hrwcxv79).
+4) fine-tune: contains description, the json file to fine-tune the model and [interactive model evaluation](https://api.wandb.ai/links/kozachekdiana/hrwcxv79).
 5) prompt-tune: contains a documentation of prompt-tuning parameters and output
 6) scenarios: contains the processed data sets
 7) survey: delphi data anaylsis from foresight expert survey
