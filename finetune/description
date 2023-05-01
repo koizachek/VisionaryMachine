@@ -4,4 +4,5 @@
 -> Data Output GPT4 Data: gpt4tofinetune_prepared.jsonl
 -> Data Output Human Data: finetuningdata_prepared.jsonl
 -> finetune process: https://platform.openai.com/docs/guides/fine-tuning
--> Use the GPT-3 scenario model: ScenarioGenerate.ipynb
+-> finetuning code with adapted parameter settings: finetune_adapted_weightsnbiases.py 
+-> Using the GPT-3 scenario models: ScenarioGenerate.ipynb
