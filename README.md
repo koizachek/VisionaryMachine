@@ -2,7 +2,7 @@
 
 ## In this research project, I tested and analyzed three future scenario generation methods, based on a GPT-3 finetuned davinci, GPT-3.5 prompt-tuned text-davinci-003 and a three-shot prompted GPT-4
 
-Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2035, 2040, 2045 and 2050. The repository makes most sense in this order:
+Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic/plausible future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2035, 2040, 2045 and 2050. The repository makes most sense in this order:
 
 0) requirements.txt
 1) code: contains all steps to gather and process the data and descriptions how to re-create the experiment
@@ -29,3 +29,9 @@ No future research methods represent discipline as much as scenario methods. The
 ## My research question aims to assess the possibility of automatically generating “authentic” and "human-like" scenarios with the help of Generative Pre-Trained Transformers.
 
 In case authenticity and human-likeness in terms of output is possible: What would AI “imagine”? Is it even able to generate other content than the scenarios that humans have developed prior? And if so, what is the differences between machine-imaginaries and human-made futures? 
+
+## Research Published: Investigating the Perception of the Future in GPT-3, -3.5 and GPT-4
+
+[ACM Library, Open-Access](https://dl.acm.org/doi/10.1145/3591196.3596827)
+
+"This study explores the potential of GPT-3, GPT-3.5, and GPT-4, in generating human-like future scenarios to investigate each model's ability to perceive time. The methodology combines a coding-based experiment and an expert survey. The investigation involves fine- and prompt-tuning GPT-3, prompt-tuning GPT-3.5, and few-shot prompting GPT-4 with human-made future scenarios. The models and output are quantitatively and qualitatively analyzed. The survey invited practitioners from fields of foresight and futurology, AI, and NLP to assess whether differences in output can be identified. This study's findings suggest that GPT-3 and GPT-4 generated scenarios are difficult to distinguish from human-made ones, while GPT-3.5 performed more poorly. Yet none of the models can differentiate time horizons and their respective effects on the future from each other. And while no one knows the shape of things to come, this lack of understanding of a core concept of life invites future investigations."
