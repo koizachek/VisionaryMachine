@@ -30,6 +30,8 @@ No future research methods represent discipline as much as scenario methods. The
 
 In case authenticity and human-likeness in terms of output is possible: What would AI “imagine”? Is it even able to generate other content than the scenarios that humans have developed prior? And if so, what is the differences between machine-imaginaries and human-made futures? 
 
+
+
 ## Research Published: Investigating the Perception of the Future in GPT-3, -3.5 and GPT-4
 
 [ACM Library, Open-Access](https://dl.acm.org/doi/10.1145/3591196.3596827)
