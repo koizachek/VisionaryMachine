@@ -2,7 +2,7 @@
 
 ## In this research project, I tested and analyzed three future scenario generation methods, based on a GPT-3 finetuned davinci, GPT-3.5 prompt-tuned text-davinci-003 and a three-shot prompted GPT-4
 
-Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic/plausible future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2035, 2040, 2045 and 2050. The repository makes most sense in this order:
+Dedicated as my Master's Thesis at Freie University of Berlin, the >>Visionary Machine<< aims to produce human-like/authentic/plausible future scenarios, based on a dataset of scraped human-made scenarios from recognized public institutions concerning the years 2030, 2040, and 2050. The repository makes most sense in this order:
 
 0) requirements.txt
 1) code: contains all steps to gather and process the data and descriptions how to re-create the experiment
